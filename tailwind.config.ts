@@ -1,5 +1,7 @@
-const config = {
-  content: ["./src/**/*.{js,ts,jsx,tsx}"],
+import type { Config } from "tailwindcss";
+
+const config: Config = {
+    content: ["./src/**/*.{js,ts,jsx,tsx}"],
     theme: {
         extend: {
             colors: {
@@ -12,7 +14,6 @@ const config = {
             }
         },
     },
-  plugins: ["@tailwindcss/postcss"],
+    plugins: [],
 };
-
 export default config;

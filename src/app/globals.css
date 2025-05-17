@@ -1,6 +1,29 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #000;
+  --color-text: #fff;
+  --color-error: #980000;
+  --color-paper: #232323;
+  --color-primary: #009688;
+  --color-primary-contrast: #fff;
+}
+
+/* -- Definição tema claro/escuro
+html[light]{
+  --background: #f0f0f0;
+  --color-text: #000;
+  --color-error: #980000;
+  --color-paper: #8f8f8f;
+  --color-primary: #009688;
+  --color-primary-contrast: #fff;
+}
+
+document.documentElement.setAttribute('light', true);
+document.getElementById("id").removeAttriibute(light);
+*/
+
+html,
+body {
+  @apply bg-[var(--background)] text-[var(--color-text)]  w-screen h-screen
 }
