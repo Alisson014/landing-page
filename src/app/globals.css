@@ -25,5 +25,9 @@ document.getElementById("id").removeAttriibute(light);
 
 html,
 body {
-  @apply bg-[var(--background)] text-[var(--color-text)]  w-screen h-screen
+  @apply bg-[var(--background)] text-[var(--color-text)]  w-screen h-screen underline-offset-4;
+}
+
+a{
+  @apply hover:underline underline-offset-6 hover:opacity-50 transition-opacity;
 }
