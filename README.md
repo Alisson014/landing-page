@@ -1,3 +1,8 @@
+# This is the codarse web site, a project made with Next js.
+
+The platform has been made how a study about the framework
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
